@@ -6,7 +6,7 @@
         version     = "0.1.1" >
 
     <!-- versionCode is optional and Android only -->
-	<preference name="phonegap-version" value="3.7.0" />
+	<preference name="phonegap-version" value="cli-6.0.0" />
 	<preference name="android-minSdkVersion" value="10" />
 	<preference name="splash-screen-duration" value="1500"/>
 	<preference name="exit-on-suspend" value="true" />
