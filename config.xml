@@ -11,7 +11,8 @@
 	<preference name="splash-screen-duration" value="1500"/>
 	<preference name="exit-on-suspend" value="true" />
 	<preference name="show-splash-screen-spinner" value="true" />
-	<uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+<uses-permission android:name="android.permission.RECORD_AUDIO" />
 <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
 <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 	<name>AudioTester</name>
@@ -26,6 +27,7 @@ AudioTester
 Projer Designs
 </author>
 
+<plugin name="Media" value="org.apache.cordova.AudioHandler" />
 	
 	<gap:platform name="android" />
 	
