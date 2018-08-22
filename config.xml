@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    	id = "com.projerdesigns.audiotester"
+        versionCode = "10" 
+        version     = "0.1.1" >
+
+    <!-- versionCode is optional and Android only -->
+	<preference name="phonegap-version" value="3.7.0" />
+	<preference name="android-minSdkVersion" value="10" />
+	<preference name="splash-screen-duration" value="1500"/>
+	<preference name="exit-on-suspend" value="true" />
+	<preference name="show-splash-screen-spinner" value="true" />
+	<preference name="permissions" value="none"/>
+	<name>AudioTester</name>
+
+<access origin="*" />
+
+<description>
+AudioTester
+</description>
+
+<author href="http://projerdesign.com/" email="otapia@storybox.mx/">
+Projer Designs
+</author>
+
+	<gap:plugin name="nl.x-services.plugins.socialsharing" version="4.3.8" />
+	<gap:plugin name="org.apache.cordova.inappbrowser" />
+	<gap:plugin name="org.apache.cordova.geolocation" />
+	<gap:plugin name="org.apache.cordova.dialogs" />
+	<gap:platform name="android" />
+	
+<icon src="ldpi.png" gap:platform="android" gap:qualifier="ldpi" />
+<icon src="mdpi.png" gap:platform="android" gap:qualifier="mdpi" />
+<icon src="hdpi.png" gap:platform="android" gap:qualifier="hdpi" />
+<icon src="xhdpi.png" gap:platform="android" gap:qualifier="xhdpi" />
+	
+<gap:splash src="splash/android/screen-xhdpi-portrait.png" />
+<gap:splash src="splash/android/screen-ldpi-portrait.png" gap:platform="android" gap:density="ldpi" />
+<gap:splash src="splash/android/screen-mdpi-portrait.png" gap:platform="android" gap:density="mdpi" />
+<gap:splash src="splash/android/screen-hdpi-portrait.png" gap:platform="android" gap:density="hdpi" />
+<gap:splash src="splash/android/screen-xhdpi-portrait.png" gap:platform="android" gap:density="xhdpi" /> 	
+
+	<preference name="android-installLocation" value="auto" />
+</widget>

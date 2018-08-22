@@ -12,7 +12,7 @@ function onDeviceReady(){
 	var record_btn = $('#record');
 	
 	play_btn.click(function(){
-		playAudio("/android_asset/audio/sample.mp3");
+		playAudio("/audio/sample.mp3");
 		
 		$(this).button('disable');
 		pause_btn.button('enable');
@@ -37,7 +37,7 @@ function onDeviceReady(){
 	
 	rewind_btn.click(function(){
 		stopAudio();
-		playAudio("/android_asset/audio/sample.mp3");
+		playAudio("/audio/sample.mp3");
 		
 	    play_btn.button('enable');
 		pause_btn.button('disable');
