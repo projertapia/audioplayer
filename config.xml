@@ -12,13 +12,6 @@
 	<preference name="exit-on-suspend" value="true" />
 	<preference name="show-splash-screen-spinner" value="true" />
 
-<config-file target="AndroidManifest.xml" parent="/manifest">
- <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
- <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
- <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
- <uses-permission android:name="android.permission.INTERNET" />
- </config-file>
 
 	<name>AudioTester</name>
 
@@ -46,5 +39,19 @@ Projer Designs
 <gap:splash src="splash/android/screen-hdpi-portrait.png" gap:platform="android" gap:density="hdpi" />
 <gap:splash src="splash/android/screen-xhdpi-portrait.png" gap:platform="android" gap:density="xhdpi" /> 	
 
-	<preference name="android-installLocation" value="auto" />
+<preference name="android-installLocation" value="auto" />
+
+<config-file target="res/xml/config.xml" parent="/*">
+            <feature name="AudioTester">
+                <param name="android-package" value="com.projerdesigns.audiotester"/>
+            </feature>
+        </config-file>
+
+        <config-file target="AndroidManifest.xml" parent="/*">
+            <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+<uses-permission android:name="android.permission.INTERNET" />
+</config-file>
 </widget>
