@@ -1,0 +1,65 @@
+		<?xml version="1.0" encoding="UTF-8"?>
+	<widget xmlns = "http://www.w3.org/ns/widgets"
+		xmlns:gap = "http://phonegap.com/ns/1.0"
+		xmlns:android = "http://schemas.android.com/apk/res/android"
+		id        = "com.audio,tester"
+		versionCode="1.1"
+		version   = "0.1.2">
+		<name>appaudiotester		</name>
+		<description>sdsdsd		</description>
+		<author href="http://projerdesigns.com/" email="projerdj@gmail.com">PRojer		</author>
+		<feature name="http://api.phonegap.com/1.0/file" />
+		<feature name="http://api.phonegap.com/1.0/media" />
+		<feature name="http://api.phonegap.com/1.0/network" />
+		<feature name="http://api.phonegap.com/1.0/notification" />
+		<preference name="phonegap-version" value="cli-6.3.0" />
+		<preference name="android-build-tool" value="gradle" />
+		<preference name="orientation" value="default" />
+		<preference name="fullscreen" value="true" />
+		<preference name="target-device" value="universal" />
+		<preference name="webviewbounce" value="true" />
+		<preference name="prerendered-icon" value="false" />
+		<preference name="stay-in-webview" value="true" />
+		<preference name="ios-statusbarstyle" value="default" />
+		<preference name="detect-data-types" value="true" />
+		<preference name="exit-on-suspend" value="true" />
+		<preference name="show-splash-screen-spinner" value="true" />
+		<preference name="auto-hide-splash-screen" value="true" />
+		<preference name="FadeSplashScreen " value="true" />
+		<preference name="EnableViewportScale" value="false" />
+		<preference name="MediaPlaybackRequiresUserAction" value="false" />
+		<preference name="AllowInlineMediaPlayback" value="true" />
+		<preference name="BackupWebStorage" value="none" />
+		<preference name="TopActivityIndicator" value="white" />
+		<preference name="KeyboardDisplayRequiresUserAction" value="true" />
+		<preference name="KeyboardShrinksView " value="true" />
+		<preference name="HideKeyboardFormAccessoryBar" value="true" />
+		<preference name="SuppressesIncrementalRendering" value="false" />
+		<preference name="windows-identity-name" value="" />
+		<preference name="android-minSdkVersion" value="16" />
+		<preference name="android-targetSdkVersion" value="23" />
+		<preference name="android-maxSdkVersion" value="0" />
+		<preference name="android-installLocation" value="auto" />
+		<preference name="SplashScreenDelay" value="2000" />
+		<preference name="ErrorUrl" value="null" />
+		<preference name="BackgroundColor" value="0x000000" />
+		<preference name="DisallowOverscroll" value="true" />
+		<preference name="LoadingDialog" value="," />
+		<preference name="LoadUrlTimeoutValue" value="null" />
+		<platform name="ios">
+		<icon src="file://F:\Documentos\GitHub\audioplayer\60.png" width="60" height="60" />
+		<icon src="file://F:\Documentos\GitHub\audioplayer\120.png" width="120" height="120" />
+		<icon src="file://F:\Documentos\GitHub\audioplayer\180.png" width="180" height="180" />
+		<icon src="file://F:\Documentos\GitHub\audioplayer\76.png" width="76" height="76" />
+		<icon src="file://F:\Documentos\GitHub\audioplayer\152.png" width="152" height="152" />
+		</platform>
+		<platform name="android">
+		<splash src="file://F:\Documentos\GitHub\audioplayer\splash\android\LDPI.png" qualifier="" />
+		<splash src="file://F:\Documentos\GitHub\audioplayer\splash\android\ldpih.png" qualifier="" />
+		<splash src="file://F:\Documentos\GitHub\audioplayer\splash\android\mdpi.png" qualifier="" />
+		<splash src="file://F:\Documentos\GitHub\audioplayer\splash\android\mdpih.png" qualifier="" />
+		</platform>
+		<platform name="winphone">
+		</platform>
+		 <icon src="icon.png" />
+		</widget>
